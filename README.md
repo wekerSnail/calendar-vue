@@ -29,6 +29,27 @@
 - 入住时间段选择
 - 置灰时间及不足日期皆不可以选择
 
+| --         | --     | --                       |
+| ---------- | ------ | ------------------------ |
+| 参数       | 类型   | 备注                     |
+| productId  | String | 房型id,接口数据          |
+| limitNum   | Number | 可选最小房型数量，默认0  |
+| start_time | String | 默认起始时间，yyyy-mm-dd |
+| end_time   | String | 默认结束时间，yyyy-mm-dd |
+| month_num  | Number | 日历显示月数,默认6个月   |
+
+
+
+**使用**
+
+```
+  <calendar month_num='4' />
+```
+
+
+
+
+
 [demo地址](https://wekersnail.github.io/calendar-vue/)
 
 
