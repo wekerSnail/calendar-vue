@@ -1,21 +1,46 @@
 # calendar
 
-> A Vue.js project
+基于vue开发的日历组件
 
-## Build Setup
+**运行**
 
-``` bash
-# install dependencies
-npm install
+`npm run dev`
 
-# serve with hot reload at localhost:8080
-npm run dev
+**打包**
 
-# build for production with minification
-npm run build
+`npm run build`
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+**离线功能**
+
+- 今天显示
+- 今天之前日期置灰
+- 入住时间段选择
+- 确认输出选择的起始时间和结束时间
+
+**上线功能**
+
+*需要配合接口数据，这边主要结合我这这边接口数据来设计*
+
+- 今天显示
+- 今天之前日期置灰
+- 房型数量不足时间置灰
+- 入住时间段选择
+- 置灰时间及不足日期皆不可以选择
+
+[demo地址](https://wekersnail.github.io/calendar-vue/)
+
+
+
+**预览**
+
+![离线模式下，没有数量限制](http://wx2.sinaimg.cn/mw690/99acde33gy1fvlm72uhfsj208w0fjwek.jpg)
+
+
+
+![配合接口](http://wx2.sinaimg.cn/mw690/99acde33gy1fvlm70j96mj208w0fjwem.jpg)
+
+![配合接口](http://wx3.sinaimg.cn/mw690/99acde33gy1fvlm6vot05j208w0fjmx7.jpg)
+
+![配合接口](http://wx4.sinaimg.cn/mw690/99acde33gy1fvlm6y5ypoj208w0fj74c.jpg)
